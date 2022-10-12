@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 import {PacmanLoader} from 'react-spinners';
 import './App.css';
 import {Navigation} from './components/Navigation/Navigation';
+import {Header} from './components/Header/Header';
+import {Footer} from './components/Footer/Footer';
 
 export const App = () => {
 	const[loading, setLoading] = useState(true);
@@ -18,6 +20,8 @@ export const App = () => {
 				</div> : (
 					<div>
 						<Navigation />
+						<Header />
+						<Footer />
 					</div>
 				)
 			}
