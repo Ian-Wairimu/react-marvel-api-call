@@ -11,7 +11,7 @@ export const Header = () => {
 		<>
 			<div className="header--con">
 				<div className="header--cont">
-					<h1 className="h1--header">Welcome to Comic-Con Discover Your Favourite Marvel Character</h1>
+					<h1 className="h1--header">Welcome to Comic-Con Discover Your Favourite Marvel Heroes</h1>
 					{button.map((v, i) => {
 						return <Button name={v.name} className={v.className} key={i} />;
 					})}

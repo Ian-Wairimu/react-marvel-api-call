@@ -1,0 +1,20 @@
+.search--con {
+    display: block;
+    margin-bottom: 40px;
+}
+.search--nav {
+    border: 2px solid #434573;
+    border-radius: 5px;
+    padding: 18px 150px;
+    margin-right: 10px;
+}
+.search--btn {
+    border: none;
+    background-color: #434573;
+    color: #F2F2F2;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 1rem;
+}

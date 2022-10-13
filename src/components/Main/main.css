@@ -1,0 +1,14 @@
+.main--con {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.h1--main {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 3rem;
+}

@@ -8,6 +8,7 @@
     height: 300px;
     background-color: #F2F2F2;
     width: 100%;
+    margin-top: 40px;
 }
 .ft--item_one {
     display: flex;

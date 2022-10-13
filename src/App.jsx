@@ -4,6 +4,7 @@ import './App.css';
 import {Navigation} from './components/Navigation/Navigation';
 import {Header} from './components/Header/Header';
 import {Footer} from './components/Footer/Footer';
+import {Main} from './components/Main/Main';
 
 export const App = () => {
 	const[loading, setLoading] = useState(true);
@@ -21,6 +22,7 @@ export const App = () => {
 					<div>
 						<Navigation />
 						<Header />
+						<Main />
 						<Footer />
 					</div>
 				)

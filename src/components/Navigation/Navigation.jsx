@@ -10,23 +10,16 @@ export const Navigation = () => {
 	return (
 		<>
 			<div className="nav--con">
-				<form action="">
-					<input
-						type="search"
-						name="comic-search"
-						placeholder="Search For Characters"
-						className="search--nav"/>
-				</form>
 				<nav className="navigation">
 					<ul className="navigation--items">
 						<li className="navigation--list">
-							<a href="" className="navigation--links">Home</a>
+							<a href="/header" className="navigation--links">Home</a>
 						</li>
 						<li className="navigation--list">
 							<a href="" className="navigation--links">Blog</a>
 						</li>
 						<li className="navigation--list">
-							<a href="" className="navigation--links">About Us</a>
+							<a href="/footer" className="navigation--links">About Us</a>
 						</li>
 					</ul>
 				</nav>
