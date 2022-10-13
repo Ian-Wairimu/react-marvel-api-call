@@ -39,6 +39,7 @@
     margin-right: 30px;
     font-weight: 700;
     font-size: 1rem;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
 }
 @media  screen and(min-width: 300px) {
     

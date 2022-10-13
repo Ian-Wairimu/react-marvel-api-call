@@ -5,7 +5,7 @@
 .search--nav {
     border: 2px solid #434573;
     border-radius: 5px;
-    padding: 18px 150px;
+    padding: 18px 120px;
     margin-right: 10px;
 }
 .search--btn {
@@ -17,4 +17,5 @@
     margin-right: 30px;
     font-weight: 700;
     font-size: 1rem;
+    box-shadow: 15px 10px 15px rgba(0, 0, 0, 0.3);
 }
