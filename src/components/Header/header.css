@@ -37,3 +37,42 @@
     background-color: #434573;
     color: #F2F2F2;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+    .header--con {
+        width: 100%;
+        margin: 0;
+        z-index: -1;
+        text-align: center;
+        background-position-y: 0;
+        height: 300px;
+    }
+    .btn--header {
+        border-radius: 10px;
+        padding: 12px 40px;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .h1--header {
+        font-size: 1.5rem;
+        width: 70%;
+    }
+}
+@media (min-width: 768px) and (max-width: 912px) {
+    .header--con {
+        width: 100%;
+        margin: 0;
+        z-index: -1;
+        text-align: center;
+        background-position-y: -10px;
+        height: 400px;
+    }
+    .btn--header {
+        padding: 18px 40px;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    .h1--header {
+        font-size: 2rem;
+        width: 50%;
+    }
+}

@@ -1,6 +1,7 @@
 import React, {useRef} from 'react';
 import './search.css';
 import {fetchHeroes} from '../../utils/utils';
+import {GoSearch} from 'react-icons/go';
 
 // eslint-disable-next-line react/prop-types
 export const Search = ({names}) => {
@@ -24,6 +25,9 @@ export const Search = ({names}) => {
 					placeholder="Search For Characters"
 					className="search--nav"/>
 				<button onClick={handleClick} className="search--btn">Search</button>
+				<span onClick={handleClick} className="search--btn-icon">
+					<GoSearch color="#434573" size={30} />
+				</span>
 			</form>
 		</div>
 	);

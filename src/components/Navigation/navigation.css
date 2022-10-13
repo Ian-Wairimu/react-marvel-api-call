@@ -7,7 +7,7 @@
     align-items: center;
     background-color: #F2F2F2;
     height: 100px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     box-shadow: 1px 2px 30px rgba(0, 0, 0, 0.4);
 }
 
@@ -41,6 +41,89 @@
     font-size: 1rem;
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
 }
-@media  screen and(min-width: 300px) {
-    
+.open-btn {
+    display: none;
+}
+@media (min-width: 360px) and (max-width: 540px){
+    .nav--con {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .navigation {
+        display: none;
+    }
+    .btn--nav {
+        display: none;
+    }
+    .navigation--items, .navigation--list {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+    .open-btn {
+        display: block;
+        border: none;
+        z-index: 1000;
+        margin-right: 40px;
+    }
+    .navigation--mobile {
+        position: absolute;
+        display: block;
+        top: 25%;
+        z-index: 100;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        height: 100vh;
+        background-color: #F2F2F2;
+    }
+    .navigation--links {
+        padding: 10px;
+        text-align: center;
+        transition: all 0.5s ease-out;
+    }
+    .navigation--links:hover {
+        border: none;
+        border-bottom: 3px solid #434573;
+    }
+}
+@media (min-width: 768px) and (max-width: 912px) {
+    .btn--nav {
+        display: block;
+    }
+    .nav--con {
+        width: 100%;
+    }
+    .navigation {
+        display: none;
+    }
+    .navigation--items, .navigation--list {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+    .open-btn {
+        display: block;
+        border: none;
+        z-index: 1000;
+        margin-right: 40px;
+    }
+    .navigation--mobile {
+        position: absolute;
+        display: block;
+        top: 25%;
+        z-index: 100;
+        transition: all 0.5s ease-out;
+        width: 100%;
+        height: 100vh;
+        background-color: #F2F2F2;
+    }
+    .navigation--links {
+        padding: 10px;
+        text-align: center;
+        transition: all 0.5s ease-out;
+    }
+    .navigation--links:hover {
+        border: none;
+        border-bottom: 3px solid #434573;
+    }
 }

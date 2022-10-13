@@ -4,3 +4,13 @@
     grid-template-rows: auto;
     gap: 20px;
 }
+@media (min-width: 360px) and (max-width: 540px) {
+    .grid--con {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 768px) and (max-width: 912px) {
+    .grid--con {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
