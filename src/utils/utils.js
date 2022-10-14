@@ -19,7 +19,6 @@ export const fetchHeroes = async(value) => {
 	try {
 		const response = await fetch(url);
 		const data = await response.json();
-		console.log(data);
 		return data.data.results;
 	}catch (e) {
 		console.log(e.message);
@@ -37,7 +36,6 @@ export const fetchHeroesId = async (id) => {
 	try {
 		const response = await fetch(url);
 		const data = await response.json();
-		console.log(data);
 		return data.data.results;
 	}catch (e) {
 		console.log(e.message);
